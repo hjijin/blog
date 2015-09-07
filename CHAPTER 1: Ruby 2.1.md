@@ -1,21 +1,14 @@
 # Ruby2.1
 Ruby Cookbook 的第一版出版于2006年，当时 ruby 的稳定版是1.8.4， 同时Rails 的版本刚刚达到1.0。八年和100多个稳定版本后，最新的版本是现在的 Ruby2.1.1 和 Rails 刚刚达到4.1.0。在过去的八年里，发生了很多变化：
 
-> 字节码解释器取代了旧的 Ruby MRI。
-> 
-> RubyGems 和 Rake 成为标准库的一部分。
-> 
-> SOAP 和 Curses 已经从标准库移进了 RubyGems。
-> 
-> 为 hashes， procs 等添加了新的语法元。
-> 
-> 添加了如 Object#tap 和 String#prepend 的新方法。
-> 
-> 添加了如 BasicObject， Fiber， 和 TracePoint 等新类。
-> 
-> MD5 的标准库名更改为 Digest::MD5。
-> 
-> 还有很多变化... ...
+* 字节码解释器取代了旧的 Ruby MRI。
+* RubyGems 和 Rake 成为标准库的一部分。
+* SOAP 和 Curses 已经从标准库移进了 RubyGems。
+* 为 hashes， procs 等添加了新的语法元。
+* 添加了如 Object#tap 和 String#prepend 的新方法。
+* 添加了如 BasicObject， Fiber， 和 TracePoint 等新类。
+* MD5 的标准库名更改为 Digest::MD5。
+* 还有很多变化... ...
 
 最终的结果是 ruby 语言更加简洁，运行速度比以往更快而且更高效。比如，一个简单的 Rails 应用程序用 Ruby 2.1 运行的速度比 Ruby 1.8 快 167-200％。
 
@@ -28,8 +21,9 @@ Ruby Cookbook 的第一版出版于2006年，当时 ruby 的稳定版是1.8.4，
 你需要知道 Ruby 1.8 和 Ruby 2.1 之间的主要区别。
 ### 解决办法：
 下图将列出Ruby 1.8 和 Ruby 2.1 之间的主要区别：
+
 | Type            | About             | Note  |
-| ------------ | ----------------- | ----- |
-| New syntax   | → | The→operator can replacelambdafor brevity. |
-| New syntax   | Array | You can use %i(foo bar baz) to specify [:foo, :bar, :baz] for brevity. |
-| New syntax   | def | You can define methods like def foo(x: 1); puts x; end.|
+| --------------- | ----------------- | ----- |
+| New syntax      | →                 | The→operator can replacelambdafor brevity. |
+| New syntax      | Array             | You can use %i(foo bar baz) to specify [:foo, :bar, :baz] for brevity. |
+| New syntax      | def               | You can define methods like def foo(x: 1); puts x; end. |
