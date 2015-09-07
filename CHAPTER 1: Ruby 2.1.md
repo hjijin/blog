@@ -1,4 +1,4 @@
-# Ruby2.1
+# Ruby 2.1
 Ruby Cookbook 的第一版出版于2006年，当时 ruby 的稳定版是1.8.4， 同时Rails 的版本刚刚达到1.0。八年和100多个稳定版本后，最新的版本是现在的 Ruby2.1.1 和 Rails 刚刚达到4.1.0。在过去的八年里，发生了很多变化：
 
 * 字节码解释器取代了旧的 Ruby MRI。
@@ -27,3 +27,12 @@ Ruby Cookbook 的第一版出版于2006年，当时 ruby 的稳定版是1.8.4，
 | New syntax      | →                 | The→operator can replacelambdafor brevity. |
 | New syntax      | Array             | You can use %i(foo bar baz) to specify [:foo, :bar, :baz] for brevity. |
 | New syntax      | def               | You can define methods like def foo(x: 1); puts x; end. |
+| New class       | BasicObject       | New root in class  hierarchy. |
+| New syntax      | Hash              | You can use {a: 1, b: 2}, which is like {:a =\> 1, :b =\> 2}, for brevity. |
+| New syntax      | r                 | You can apply the r suffix to numbers to specify rationals like 1.2r.  |
+| New class       | GC::Profiler      | Profiles the garbage  collector. |
+| New class       | Encoding          | Represents a character  encoding. |
+| New class       | Enumerator::Lazy  | Delays running enumerations until absolutely necessary. |
+| New class       | Fiber             | Lightweight processes. |
+| New class       | Gem               | RubyGems. |
+| New class       | Random            | Pseudorandom number generator. |
