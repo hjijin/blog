@@ -25,18 +25,18 @@ Ruby Cookbook 的第一版出版于2006年，当时 ruby 的稳定版是1.8.4，
 | Type      | About            | Note  |
 | -------- | ---------------- | ----- |
 | 新语法    | →                | → 操作符可以简洁替代lambda |
-| 新语法    | Array            | You can use %i(foo bar baz) to specify [:foo, :bar, :baz] for brevity. |
-| 新语法    | def              | You can define methods like def foo(x: 1); puts x; end. |
-| 新的类    | BasicObject      | New root in class  hierarchy. |
-| 新语法    | Hash             | You can use {a: 1, b: 2}, which is like {:a =\> 1, :b =\> 2}, for brevity. |
-| 新语法    | r                | You can apply the r suffix to numbers to specify rationals like 1.2r.  |
-| 新的类    | GC::Profiler     | Profiles the garbage collector. |
-| 新的类    | Encoding         | Represents a character  encoding. |
-| 新的类    | Enumerator::Lazy | Delays running enumerations until absolutely necessary. |
-| 新的类    | Fiber            | Lightweight processes. |
+| 新语法    | Array            | 简洁的使用 %i(foo bar baz) 来表示 [:foo, :bar, :baz]. |
+| 新语法    | def              | 你可以像 def foo(x: 1); puts x; end 这样定义方法. |
+| 新的类    | BasicObject      | 类层次结构中新的根. |
+| 新语法    | Hash             | 简洁的使用 {a: 1, b: 2} 白哦是 {:a =\> 1, :b =\> 2} 这样的效果. |
+| 新语法    | r                | 使用 r 后缀配合数字来表示有理数如：1.2r.  |
+| 新的类    | GC::Profiler     | 配置垃圾收集器. |
+| 新的类    | Encoding         | 相当于一种字符编码. |
+| 新的类    | Enumerator::Lazy | 延迟运行枚举，直到绝对必要的. |
+| 新的类    | Fiber            | 轻量级进程.|
 | 新的类    | Gem              | RubyGems. |
-| 新的类    | Random           | Pseudorandom number generator. |
-| 新的类    | RubyVM           | The Ruby interpreter.          |
+| 新的类    | Random           | 随机数产生器. |
+| 新的类    | RubyVM           | Ruby 解析器.          |
 | 新的类    | Socket::Ifaddr   | Interface address class.       |
 | 新的类    | TracePoint       | DTrace-like inspection class.  |
 | 新方法    | Array.try\_convert | Tries to convertobjinto an array. |
