@@ -22,17 +22,41 @@ Ruby Cookbook 的第一版出版于2006年，当时 ruby 的稳定版是1.8.4，
 ### 解决办法：
 下图将列出Ruby 1.8 和 Ruby 2.1 之间的主要区别：
 
-| Type            | About             | Note  |
-| --------------- | ----------------- | ----- |
-| New syntax      | →                 | The→operator can replacelambdafor brevity. |
-| New syntax      | Array             | You can use %i(foo bar baz) to specify [:foo, :bar, :baz] for brevity. |
-| New syntax      | def               | You can define methods like def foo(x: 1); puts x; end. |
-| New class       | BasicObject       | New root in class  hierarchy. |
-| New syntax      | Hash              | You can use {a: 1, b: 2}, which is like {:a =\> 1, :b =\> 2}, for brevity. |
-| New syntax      | r                 | You can apply the r suffix to numbers to specify rationals like 1.2r.  |
-| New class       | GC::Profiler      | Profiles the garbage  collector. |
-| New class       | Encoding          | Represents a character  encoding. |
-| New class       | Enumerator::Lazy  | Delays running enumerations until absolutely necessary. |
-| New class       | Fiber             | Lightweight processes. |
-| New class       | Gem               | RubyGems. |
-| New class       | Random            | Pseudorandom number generator. |
+| Type      | About            | Note  |
+| -------- | ---------------- | ----- |
+| 新语法    | →                | → 操作符可以简洁替代lambda |
+| 新语法    | Array            | You can use %i(foo bar baz) to specify [:foo, :bar, :baz] for brevity. |
+| 新语法    | def              | You can define methods like def foo(x: 1); puts x; end. |
+| 新的类    | BasicObject      | New root in class  hierarchy. |
+| 新语法    | Hash             | You can use {a: 1, b: 2}, which is like {:a =\> 1, :b =\> 2}, for brevity. |
+| 新语法    | r                | You can apply the r suffix to numbers to specify rationals like 1.2r.  |
+| 新的类    | GC::Profiler     | Profiles the garbage collector. |
+| 新的类    | Encoding         | Represents a character  encoding. |
+| 新的类    | Enumerator::Lazy | Delays running enumerations until absolutely necessary. |
+| 新的类    | Fiber            | Lightweight processes. |
+| 新的类    | Gem              | RubyGems. |
+| 新的类    | Random           | Pseudorandom number generator. |
+| 新的类    | RubyVM           | The Ruby interpreter.          |
+| 新的类    | Socket::Ifaddr   | Interface address class.       |
+| 新的类    | TracePoint       | DTrace-like inspection class.  |
+| 新方法    | Array.try\_convert | Tries to convertobjinto an array. |
+| 新方法    | Array#rotate | Creates a new array by rotating the existing array. |
+| 新方法    | Array#keep\_if | Deletes every element where the block evaluates to false. |
+| 新方法    | Array#sample | Chooses a random element. |
+| 新方法    | Array#repeated\_permutation | All repeated permutations. |
+| 新方法    | Array#repeated\_combination | All repeated combinations. |
+| 新方法    | Hash#to\_h | Ubiquitous hash conversion. |
+| 新方法    | Hash#default\_proc= | You can now set the default proc after initialization. |
+| 新方法    | Hash#key | An inverted hash lookup. |
+| 新方法    | Hash#keep\_if | Deletes every key-value pair where the block evaluates to false. |
+| 新方法    | Hash#assoc | Searches through the hash comparing obj with the value using ==. |
+| 新方法    | Hash#rassoc | Searches through the hash comparing obj with the key using ==. |
+| 新方法    | Hash#flatten | A one-dimensional flattening of this hash. |
+| 新方法    | Hash#compare\_by\_identity | Compares hashes by their identity. |
+| 新方法    | Enumerable#to\_h | Ubiquitous hash conversion. |
+| 新方法    | Enumerable#flat\_map | Creates array with the concatenated results of running block once for every element inenum. |
+| 新方法    | Enumerable#each\_entry | Calls block once for each element in self, passing that element as a parameter, converting multiple values from yieldto an array. |
+
+
+
+
