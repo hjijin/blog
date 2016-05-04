@@ -1,0 +1,60 @@
+# Jekyll 网站的设置
+
+title: ajream # 网站的标题
+email: ajream.gd@gmail.com # 电子邮件地址
+description: just for study. # 网站简介
+# the base hostname & protocol for your site
+# If your project is placed in https://github.com/yourname/yourname.github.io at master branch
+# Then, the 'url' is: http://yourname.github.io
+# If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
+# Then, the 'url' is: http://yourname.github.io/projectname
+url: 
+
+markdown:    kramdown
+highlighter:  pygments
+excerpt_separator: <!--more-->
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: ajream.huang
+  avatar: avatar.jpg
+  job: "Ruby & Web Developer"
+  bio: "Across the great wall, we can reach every corner in the world, hello world!"
+  email: ajream.gd@gmail.com
+  disqus-shortname: jijinblog
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: ajream
+  stackoverflow: '2268420/user2268420' #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: jijin_huang
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
