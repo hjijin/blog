@@ -6,7 +6,7 @@
 
 <div class="cover-card table-cell table-bottom">
   {% if author.avatar %}
-  <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
+  <img src="{{ site.url | prepend: site.baseurl }}/img/{{ author.avatar }}" alt="" class="avatar">
   {% endif %}
   <span class="author_name">{{ author.name }}</span>
   <span class="author_job">{{ author.job }}</span>
@@ -23,7 +23,7 @@
         {% endunless %}
         {% assign first = 'no' %}
 
-        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ site.url | prepend: site.baseurl }}{{ page.url }}">{{ page.title }}</a>
       </li>
       {% endif %} 
       {% endfor %}

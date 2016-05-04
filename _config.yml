@@ -3,6 +3,7 @@
 title: ajream # 网站的标题
 email: ajream.gd@gmail.com # 电子邮件地址
 description: just for study. # 网站简介
+baseurl: /blog
 # the base hostname & protocol for your site
 # If your project is placed in https://github.com/yourname/yourname.github.io at master branch
 # Then, the 'url' is: http://yourname.github.io
@@ -27,7 +28,7 @@ kramdown:
 ####################################
 #
 owner:
-  name: ajream.huang
+  name: ajream 
   avatar: avatar.jpg
   job: "Ruby & Web Developer"
   bio: "Across the great wall, we can reach every corner in the world, hello world!"
@@ -46,7 +47,7 @@ owner:
   stackoverflow: '2268420/user2268420' #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
-  instagram: jijin_huang
+  instagram: #username
   lastfm: #username
   tumblr: #username
   pinterest: #username
