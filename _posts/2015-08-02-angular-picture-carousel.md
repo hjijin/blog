@@ -2,7 +2,7 @@
 layout: post
 title: "angular 实现轮播图"
 date: 2015-08-02
-categories: web
+categories: Web
 comments: true
 tag: angular
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "三个 CSS 技巧"
-category: web
+category: Web
 excerpt: 各种浏览器之间的竞争的白热化意味着越来越多的人现在开始使用那些支持最新、最先进的W3C Web标准的设备，以一种更具交互性的方式来访问互联网。
 tags: CSS
 comments: true

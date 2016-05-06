@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Bower--用于web前端开发的包管理器"
-category: web
-tags: 前端
+category: Web
+tags: front
 comments: true
 ---
 
