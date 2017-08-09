@@ -46,6 +46,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 3.5.1)
+  liquid (~> 4.0)
   tzinfo-data
 
 BUNDLED WITH
