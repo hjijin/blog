@@ -1,12 +1,12 @@
-{% if page.author %} 
+{% if page.author %}
   {% assign author = site.data.authors[page.author] %}
 {% else %}
-  {% assign author = site.owner %} 
+  {% assign author = site.owner %}
 {% endif %}
 
 <div class="cover-card table-cell table-bottom">
   {% if author.avatar %}
-  <img src="{{ site.url | prepend: site.baseurl }}/img/{{ author.avatar }}" alt="" class="avatar">
+  <img src="{{ site.baseurl }}/assets/img/{{ author.avatar }}" alt="" class="avatar">
   {% endif %}
   <span class="author_name">{{ author.name }}</span>
   <span class="author_job">{{ author.job }}</span>
@@ -15,17 +15,17 @@
     <ul class="nav-list">
       {% assign first = '' %}
 
-      {% for page in site.pages %} 
-      {% if page.title %}
-      <li class="nav-item">
-        {% unless first == '' %}
-        <span>/</span>
-        {% endunless %}
-        {% assign first = 'no' %}
+      {% for page in site.pages %}
+        {% if page.title %}
+          <li class="nav-item">
+            {% unless first == '' %}
+              <span>/</span>
+            {% endunless %}
+            {% assign first = 'no' %}
 
-        <a href="{{ site.url | prepend: site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-      </li>
-      {% endif %} 
+            <a href="{{ site.baseurl }}{{ page.permalink }}">{{ page.title }}</a>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </nav>

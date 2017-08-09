@@ -9,7 +9,7 @@ excerpt: 前端开源开发好用的资源.
 
 + Architecture
 
-    ![1](/upload/2013/0628/architecture.jpg)
+    ![1]({{ site.baseurl }}/upload/2013/0628/architecture.jpg)
 
     + [BEM](http://bem.info/method/)该方法可以让开发人员快速开发出网站，延长网站的寿命；保持代码的重用性。
     + [Atomic Design](http://bradfrostweb.com/blog/post/atomic-web-design/) 以原子的观点设计系统架构，从具体到抽象构建系统架构。
@@ -235,7 +235,7 @@ excerpt: 前端开源开发好用的资源.
                 + [Pinstrap](http://bragthemes.com/theme/pinstrap-pinterest-meets-bootstrap/)
             + Misc
                 + [Boilerstrap](https://github.com/emorikawa/boilerstrap): A blank slate for the modern web. Just add creativity.
-                + [Bootstrap GUI PSD](http://gui.repixdesign.com/#freebies): a toolkit designed to kickstart webdesign of webapps and 
+                + [Bootstrap GUI PSD](http://gui.repixdesign.com/#freebies): a toolkit designed to kickstart webdesign of webapps and
                 sites.
                 + [Font Awesome](http://fortawesome.github.com/Font-Awesome/): The iconic font designed for use with Twitter Bootstrap
                 + [Typo3 Extension](http://typo3.org/extensions/repository/view/mn_twitter_bootstrap)
@@ -553,7 +553,7 @@ excerpt: 前端开源开发好用的资源.
     + [mxgraph](http://jgraph.github.io/mxgraph/)
     + [Paper.js](http://paperjs.org) is an open source vector graphics scripting framework that runs on top of the HTML5 Canvas.
     + [Timeline.js](https://github.com/VeriteCo/TimelineJS): A Storytelling Timeline built in JavaScript.
-    + [xCharts](http://tenxer.github.com/xcharts/) is a JS library for creating attractive, custom data-driven chart visualizations. 
+    + [xCharts](http://tenxer.github.com/xcharts/) is a JS library for creating attractive, custom data-driven chart visualizations.
     It uses HTML, CSS, and SVG to create dynamic, fluid charts that can be easily customized and integrated.
     + [jQuery Gantt editor](http://roberto.open-lab.com/2013/01/28/jquery-gantt-editor-include-today/)
     + [amCharts](http://www.amcharts.com/) is a robust charting tool that will suit any dataviz need.
@@ -590,7 +590,7 @@ excerpt: 前端开源开发好用的资源.
     + [Fullproof](http://reyesr.github.com/fullproof/)
     + [lunr.js](http://lunrjs.com/) is a simple full text search engine for your client side applications.
 + Testing
-    + [FiveUI](http://galoisinc.github.io/FiveUI/) Extensible/open browser extension & headless system for testing UI Consistency 
+    + [FiveUI](http://galoisinc.github.io/FiveUI/) Extensible/open browser extension & headless system for testing UI Consistency
     guidelines (or anything else you can test with injected JS).
     + [Writing Testable JavaScript](http://alistapart.com/article/writing-testable-javascript)
     + [Writing Testable Frontend Javascript Part 1 – Anti-patterns and their fixes](https://shanetomlinson.com/2013/testing-javascript-
@@ -613,7 +613,7 @@ excerpt: 前端开源开发好用的资源.
     + [Templayed.js](http://archan937.github.com/templayed.js/)
     + [ECT](http://ectjs.com/): Fastest JavaScript template engine with CoffeeScript syntax
     + [pithy](https://github.com/caolan/pithy): An internal DSL for generating HTML in JavaScript
-    + [T](https://github.com/gcao/T.js): T.js is a template engine that uses simple Javascript data structure to represent html/xml 
+    + [T](https://github.com/gcao/T.js): T.js is a template engine that uses simple Javascript data structure to represent html/xml
     data.
     + [Nunjucks](http://nunjucks.jlongster.com/) is a full featured templating engine for javascript.
     + [Jade](http://jade-lang.com/)
@@ -664,7 +664,7 @@ excerpt: 前端开源开发好用的资源.
             + [Introduction Article](http://google-opensource.blogspot.de/2012/08/leak-finder-new-tool-for-javascript.html)
         + [Navigation Timing](http://www.html5rocks.com/en/tutorials/webperformance/basics/)
         + [Firebug Paint Events](https://addons.mozilla.org/en-US/firefox/addon/firebug-paint-events/)
-        + [Locache](https://github.com/d0ugal/locache): JavaScript caching framework for client side caching in the browser using 
+        + [Locache](https://github.com/d0ugal/locache): JavaScript caching framework for client side caching in the browser using
         localStorage
     + DOM Manipulation
         + [Rendering: repaint, reflow/relayout, restyle](http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/)

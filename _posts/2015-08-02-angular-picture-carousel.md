@@ -32,7 +32,7 @@ tag: angular
       <slide ng-repeat="slide in slides" active="slide.active">
         <img ng-src="{{slide.image}}" style="margin:auto;">
         <div class="carousel-caption">
-          <h4>Slide {{$index}}</h4>
+          <h4>Slide {{"$index"}}</h4>
           <p>{{slide.text}}</p>
         </div>
       </slide>
@@ -63,6 +63,6 @@ angular.module('pictureCarousel', ['ui.bootstrap']).controller('CarouselCtrl', f
 
 这样就能实现如下效果：
 
-![轮换效果](/upload/2015/0802/1.jpg)
+![轮换效果]({{ site.baseurl }}/upload/2015/0802/1.jpg)
 
 分别写了两个 DEMO，代码托管在 [github](https://github.com/tclz/angular-picture-carousel)。
