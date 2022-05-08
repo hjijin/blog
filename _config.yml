@@ -1,7 +1,7 @@
 # Jekyll 网站的设置
 
-title: ajream # 网站的标题
-email: ajream.gd@gmail.com # 电子邮件地址
+title: jim.h # 网站的标题
+email: hjijin.gz@gmail.com # 电子邮件地址
 description: just for study. # 网站简介
 baseurl: /blog
 # the base hostname & protocol for your site
@@ -28,11 +28,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: ajream
+  name: hjijin
   avatar: avatar.jpg
   job: "Ruby & Web Developer"
   bio: "Across the great wall, we can reach every corner in the world, hello world!"
-  email: ajream.gd@gmail.com
+  email: hjijin.gz@gmail.com
   disqus-shortname: jijinblog
   twitter: #username
   facebook: #username
@@ -43,7 +43,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: ajream
+  github: hjijin
   stackoverflow: '2268420/user2268420' #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username

@@ -1,12 +1,12 @@
 # Jekyll Themes Blog
 
-**[This blog](http://ajream.github.io/blog)** is a clean Jekyll theme perfect for powering your GitHub hosted blog.
+**[This blog](http://hjijin.github.io/blog)** is a clean Jekyll theme perfect for powering your GitHub hosted blog.
 
 Are you looking for [more themes](http://jekyllthemes.org)?
 
 ## Quick setup
 
-`git clone https://github.com/ajream/blog.git blog`
+`gem install jekyll`
 
 `cd blog`
 
