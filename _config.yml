@@ -3,13 +3,13 @@
 title: jim.h # 网站的标题
 email: hjijin.gz@gmail.com # 电子邮件地址
 description: just for study. # 网站简介
-baseurl: /blog
+baseurl: hjijin.gz.cn/blog
 # the base hostname & protocol for your site
 # If your project is placed in https://github.com/yourname/yourname.github.io at master branch
 # Then, the 'url' is: http://yourname.github.io
 # If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
 # Then, the 'url' is: http://yourname.github.io/projectname
-url: hjijin.gz.cn/blog
+url: 
 
 markdown:    kramdown
 highlighter:  rouge
