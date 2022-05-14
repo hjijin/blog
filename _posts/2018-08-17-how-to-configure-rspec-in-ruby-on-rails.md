@@ -9,9 +9,9 @@ comments: true
 
 文章写于 2018-08-09， 适用于当前版本 gem。
 
-### 在新项目中配置
-
 <!--more-->
+
+### 在新项目中配置
 
 假设读者已经阅读过 [Agile Web Development with Rails](https://pragprog.com/book/rails51/agile-web-development-with-rails-5-1)
  或者 [RailsGuides](https://guides.rubyonrails.org/getting_started.html) 并且在自己的计算机上安装好 Ruby 和 Ruby on Rails 环境。
