@@ -17,6 +17,36 @@ Ruby 是一门纯粹的面向对象语言，它魔幻而有趣的。而元编程
 
 #### 重新认识类
 
+- 类也是对象，所以能应用于对象的都可以运用于类。
+- 和对象一样，类也有方法，对象的方法即是其所属类的实例方法。
+- 所有的类有共同的祖先 Object 类（都是从 Object 类直接或间接继承而来），而 Object 类又继承自 BasicObject 类。
+- 类名是常量（Constant）。
+
+下面的代码有助于你理解这些信息：
+
+```
+# 对象的方法即为其所属类的实例方法
+str = 'abc'
+str.methods == str.class.instance_methods
+#=> true
+
+# 类的 "溯源"
+klass = Class.new
+klass.ancestors
+#=> [#<Class:0x00007f88831a57d0>, Object, Kernel, BasicObject]
+
+klass.class
+#=> Class
+
+klass.superclass
+#=> Object
+
+klass.superclass.superclass
+#=> BasicObject
+
+klass.superclass.superclass.superclass
+#=> nil
+```
 #### 类是开放的
 
 #### 多重initialize方法
